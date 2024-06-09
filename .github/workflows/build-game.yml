@@ -15,6 +15,7 @@ jobs:
         include:
         - target: windows
         - target: macos
+        - target: android
     runs-on:
     - ${{ matrix.target }}
     defaults:
